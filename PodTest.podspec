@@ -8,10 +8,10 @@ Pod::Spec.new do |spec|
   spec.homepage      = 'https://github.com/ThanhPhuc11/PodTest'
   spec.authors       = { 'PhucMT' => 'mbat243@gmail.com' }
   spec.summary       = 'Pod test'
-  #spec.source_files  = 'Hello.{h,m}'
-  #spec.exclude_files = "Classes/Exclude"
   spec.platform     = :ios, "5.0"
   spec.source        = { :git => 'https://github.com/ThanhPhuc11/PodTest.git', :tag => "#{spec.version}" }
+  #spec.source_files  = 'Classes/*.{h,m}'
+  #spec.exclude_files = "Classes/Exclude"
   spec.vendored_frameworks = 'PodTest.xcframework'
 
 end
